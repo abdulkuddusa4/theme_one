@@ -1,0 +1,64 @@
+#para-two{
+	padding: 5% 10%;
+	margin: 0px 21%;
+	overflow: hidden;
+}
+.image-size{
+	width: 100%;
+	height: 100%;
+}
+#biography{
+	background: url('biography-bg.png');
+	background-position: center center;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+#client-saying{
+	background: url('footer-bg.png');
+	background-position: center center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+
+}
+#intro-section{
+	background: url('footer-bg.png');
+	background-position: center center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+.linear_background{
+	background: linear-gradient(90deg, #AD4363,orange) !important;
+}
+.font_size_one{
+	font-size: 16px !important;
+	font-weight: 900;
+}
+.my_work_image{width: 100%;}
+#contact{
+
+}
+
+/*XTRA SMALL DEVICE*/
+@media only screen and (max-width: 576px){
+	.div_margin{margin-top: 20px !important;}
+}
+
+/*SMALL DEVICE*/
+@media only screen and (min-width: 576px){
+	.div_margin{margin-top: 20px !important;}
+
+}
+
+/*MEDIAM DEVICE*/
+@media only screen and (min-width: 768px){
+	.div_margin{margin-top: 200px !important;}
+
+}
+
+/*LARGE DEVICE*/
+@media only screen and (min-width: 992px){
+	.div_margin{margin-top: 200px !important;}
+
+}
