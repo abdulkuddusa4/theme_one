@@ -12,13 +12,34 @@
 			overflow: hidden;
 		}
 		.image-size{
-			width: 300px;
+			width: 100%;
+		}
+		#biography{
+			background: url('biography-bg.png');
+			background-position: center center;
+			background-size: cover;
+			background-repeat: no-repeat;
+		}
+		#client-saying{
+			background: url('footer-bg.png');
+			background-position: center center;
+			background-size: cover;
+			background-repeat: no-repeat;
+			background-attachment: fixed;
+
+		}
+		#intro-section{
+			background: url('footer-bg.png');
+			background-position: center center;
+			background-size: cover;
+			background-repeat: no-repeat;
+			background-attachment: fixed;
 		}
 	</style>
 	<title>Document</title>
 </head>
 <body>
-	<div class="container">
+	<div class="container" id="intro-section">
 		<div class="row">
 			<div class="col-lg-7" style="margin-top: 50px;">
 				<h2 class="h2 mt-5 text-center text-lg-start">Hello I'm <span class="text-danger d-inline d-lg-block">Shajahan</span></h2>
@@ -32,13 +53,13 @@
 			</div>
 		</div>
 	</div>
-	<div class="container">
+	<div class="container" id="biography" style="height:700px;">
 		<div class="row">
 			<div class="col-lg-6 text-center">
 				<img src="peter_dream.png" alt="" class="image-size">
 			</div>
 			<div class="col-lg-6 d-flex flex-row align-items-center">
-				<div class="col-lg-12 ms-5">
+				<div class="col-lg-12 mx-1 mx-md-5 mx-lg-5">
 					<h3 class="h3 text-lg-start fw-bold">Biography</h3>
 					<p class="text-secondary">Lorem ipsum dolor sit amet, consectetur adipisicing, elit. Sunt esse, aperiam quia, pariatur nesciunt unde animi. Eveniet odio veniam officiis, accusantium vero. Similique facilis quisquam nemo est deleniti, amet aspernatur.</p>
 					<a href="#" class="btn btn-primary">DOWNLOAD CV</a>
@@ -62,7 +83,7 @@
 		</div>
 	</div>
 
-	<div class="container mt-5 mb-5">
+	<div class="container mt-5 mb-5" id="client-saying">
 		<h2 class="h2 text-center fw-bold">what client are says</h2>
 		<h4 class="text-secondary text-center mt-5"><strong>Bill Gates</strong></h4>
 		<p class="text-center small">Founder & CEO Google</p>
